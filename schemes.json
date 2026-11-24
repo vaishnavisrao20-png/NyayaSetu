@@ -1,0 +1,495 @@
+{
+ "docs": {
+  "aadhaar": [
+   "Aadhaar Card",
+   "Download or update at myaadhaar.uidai.gov.in, or visit an Aadhaar centre."
+  ],
+  "income": [
+   "Income Certificate (less than 6 months old)",
+   "Apply online on your State e-Services portal (Karnataka: Nadakacheri / Seva Sindhu)."
+  ],
+  "bank": [
+   "Bank Passbook (Aadhaar-linked)",
+   "Open a savings account at any bank or post office and link it with Aadhaar."
+  ],
+  "marks": [
+   "Last Marksheet / Bonafide Certificate",
+   "Collect it from your school or college office."
+  ],
+  "land": [
+   "Land Records (RTC / 7-12 / Khatauni)",
+   "Download from your State land records portal (Karnataka: Bhoomi)."
+  ],
+  "age": [
+   "Age Proof",
+   "Birth certificate from your municipality, or your school leaving certificate."
+  ],
+  "ration": [
+   "Ration Card",
+   "Apply on your State food and civil supplies portal."
+  ],
+  "pan": [
+   "PAN Card",
+   "Apply at onlineservices.nsdl.com or through a PAN centre."
+  ],
+  "biz": [
+   "Simple Business Plan",
+   "Write one page: what you sell, what it costs, expected income. Your local MSME office can help."
+  ],
+  "res": [
+   "Residence Proof",
+   "Electricity bill, rental agreement or the address on your Aadhaar."
+  ],
+  "otr": [
+   "NSP One Time Registration (OTR) number",
+   "Generate it on scholarships.gov.in with your Aadhaar (face authentication in the NSP OTR app). A Common Service Centre can do it for ₹30."
+  ],
+  "caste": [
+   "Caste Certificate",
+   "Apply online on Seva Sindhu (Karnataka Revenue Department) or at your Nadakacheri / Atalji Janasnehi Kendra."
+  ]
+ },
+ "schemes": [
+  {
+   "id": "cscs",
+   "name": "PM-USP Central Sector Scholarship (College & University)",
+   "benefit": "₹12,000 per year (UG), ₹20,000 per year (PG)",
+   "categories": [
+    "student"
+   ],
+   "states": [
+    "all"
+   ],
+   "max_income": 4.5,
+   "status": [
+    "studying"
+   ],
+   "level": [
+    "college"
+   ],
+   "docs": [
+    "aadhaar",
+    "otr",
+    "income",
+    "bank",
+    "marks"
+   ],
+   "apply": "scholarships.gov.in",
+   "note": "Needs above the 80th percentile in Class 12 and a regular course."
+  },
+  {
+   "id": "nmms",
+   "name": "National Means-cum-Merit Scholarship",
+   "benefit": "₹12,000 per year (Classes 9–12)",
+   "categories": [
+    "student"
+   ],
+   "states": [
+    "all"
+   ],
+   "max_income": 3.5,
+   "status": [
+    "studying"
+   ],
+   "level": [
+    "school"
+   ],
+   "docs": [
+    "aadhaar",
+    "otr",
+    "income",
+    "bank",
+    "marks"
+   ],
+   "apply": "scholarships.gov.in",
+   "note": "Selected through your state's Class 8 scholarship exam."
+  },
+  {
+   "id": "pudhumai",
+   "name": "Pudhumai Penn (Tamil Nadu)",
+   "benefit": "₹1,000 per month for girl students in higher education",
+   "categories": [
+    "student"
+   ],
+   "states": [
+    "Tamil Nadu"
+   ],
+   "max_income": 999,
+   "status": [
+    "studying"
+   ],
+   "level": [
+    "college"
+   ],
+   "docs": [
+    "aadhaar",
+    "marks",
+    "bank"
+   ],
+   "apply": "pudhumaipenn.tn.gov.in"
+  },
+  {
+   "id": "standup",
+   "name": "Stand-Up India Loan",
+   "benefit": "Loan of ₹10 lakh to ₹1 crore for a new business",
+   "categories": [
+    "woman"
+   ],
+   "states": [
+    "all"
+   ],
+   "max_income": 999,
+   "docs": [
+    "aadhaar",
+    "pan",
+    "biz",
+    "res"
+   ],
+   "apply": "standupmitra.in"
+  },
+  {
+   "id": "mudra",
+   "name": "PM Mudra Yojana",
+   "benefit": "Collateral-free business loan up to ₹20 lakh",
+   "categories": [
+    "woman",
+    "daily_wage"
+   ],
+   "states": [
+    "all"
+   ],
+   "max_income": 999,
+   "docs": [
+    "aadhaar",
+    "pan",
+    "biz",
+    "bank"
+   ],
+   "apply": "mudra.org.in"
+  },
+  {
+   "id": "gruha",
+   "name": "Gruha Lakshmi (Karnataka)",
+   "benefit": "₹2,000 per month for the woman head of the family",
+   "categories": [
+    "woman"
+   ],
+   "states": [
+    "Karnataka"
+   ],
+   "max_income": 999,
+   "docs": [
+    "aadhaar",
+    "ration",
+    "bank"
+   ],
+   "apply": "sevasindhu.karnataka.gov.in"
+  },
+  {
+   "id": "ladki",
+   "name": "Ladki Bahin Yojana (Maharashtra)",
+   "benefit": "₹1,500 per month for eligible women aged 21–65",
+   "categories": [
+    "woman"
+   ],
+   "states": [
+    "Maharashtra"
+   ],
+   "max_income": 2.5,
+   "docs": [
+    "aadhaar",
+    "income",
+    "bank",
+    "res"
+   ],
+   "apply": "ladakibahin.maharashtra.gov.in"
+  },
+  {
+   "id": "pmkisan",
+   "name": "PM-KISAN Samman Nidhi",
+   "benefit": "₹6,000 per year in 3 instalments",
+   "categories": [
+    "farmer"
+   ],
+   "states": [
+    "all"
+   ],
+   "max_income": 999,
+   "docs": [
+    "aadhaar",
+    "land",
+    "bank"
+   ],
+   "apply": "pmkisan.gov.in"
+  },
+  {
+   "id": "pmfby",
+   "name": "PM Fasal Bima Yojana",
+   "benefit": "Crop insurance at a low premium",
+   "categories": [
+    "farmer"
+   ],
+   "states": [
+    "all"
+   ],
+   "max_income": 999,
+   "docs": [
+    "aadhaar",
+    "land",
+    "bank"
+   ],
+   "apply": "pmfby.gov.in"
+  },
+  {
+   "id": "kcc",
+   "name": "Kisan Credit Card",
+   "benefit": "Low-interest credit for farming costs",
+   "categories": [
+    "farmer"
+   ],
+   "states": [
+    "all"
+   ],
+   "max_income": 999,
+   "docs": [
+    "aadhaar",
+    "land",
+    "bank"
+   ],
+   "apply": "Your nearest bank branch"
+  },
+  {
+   "id": "vayvandana",
+   "name": "Ayushman Vay Vandana Card",
+   "benefit": "Free hospital cover up to ₹5 lakh per year (age 70+)",
+   "categories": [
+    "senior"
+   ],
+   "states": [
+    "all"
+   ],
+   "max_income": 999,
+   "docs": [
+    "aadhaar",
+    "age"
+   ],
+   "apply": "beneficiary.nha.gov.in"
+  },
+  {
+   "id": "nsap",
+   "name": "Indira Gandhi National Old Age Pension",
+   "benefit": "Monthly pension for senior citizens below the poverty line",
+   "categories": [
+    "senior"
+   ],
+   "states": [
+    "all"
+   ],
+   "max_income": 2,
+   "docs": [
+    "aadhaar",
+    "age",
+    "income",
+    "bank"
+   ],
+   "apply": "Your Gram Panchayat or municipal office"
+  },
+  {
+   "id": "scss",
+   "name": "Senior Citizens Savings Scheme",
+   "benefit": "Safe, government-backed savings with regular interest",
+   "categories": [
+    "senior"
+   ],
+   "states": [
+    "all"
+   ],
+   "max_income": 999,
+   "docs": [
+    "aadhaar",
+    "pan",
+    "bank",
+    "age"
+   ],
+   "apply": "Post office or authorised bank"
+  },
+  {
+   "id": "eshram",
+   "name": "e-Shram and PM Shram Yogi Maandhan",
+   "benefit": "Accident cover plus ₹3,000 per month pension after age 60",
+   "categories": [
+    "daily_wage"
+   ],
+   "states": [
+    "all"
+   ],
+   "max_income": 2,
+   "note": "Pension scheme is for ages 18–40.",
+   "docs": [
+    "aadhaar",
+    "bank"
+   ],
+   "apply": "eshram.gov.in"
+  },
+  {
+   "id": "pmjay",
+   "name": "Ayushman Bharat PM-JAY",
+   "benefit": "Free hospital cover up to ₹5 lakh per family per year",
+   "categories": [
+    "any"
+   ],
+   "states": [
+    "all"
+   ],
+   "max_income": 2,
+   "docs": [
+    "aadhaar",
+    "ration",
+    "income"
+   ],
+   "apply": "pmjay.gov.in"
+  },
+  {
+   "id": "annabhagya",
+   "name": "Anna Bhagya (Karnataka)",
+   "benefit": "Subsidised food grains for low-income families",
+   "categories": [
+    "any"
+   ],
+   "states": [
+    "Karnataka"
+   ],
+   "max_income": 2,
+   "docs": [
+    "aadhaar",
+    "ration"
+   ],
+   "apply": "ahara.kar.nic.in"
+  },
+  {
+   "id": "pmsby",
+   "name": "PM Suraksha Bima Yojana",
+   "benefit": "₹2 lakh accident insurance for ₹20 a year",
+   "categories": [
+    "any"
+   ],
+   "states": [
+    "all"
+   ],
+   "max_income": 999,
+   "note": "For ages 18–70 with a bank account.",
+   "docs": [
+    "aadhaar",
+    "bank"
+   ],
+   "apply": "jansuraksha.gov.in"
+  },
+  {
+   "id": "ssp_sc",
+   "name": "Post-Matric Scholarship for SC Students (Karnataka)",
+   "benefit": "Fees and maintenance allowance (amount depends on your course)",
+   "max_income": 2.5,
+   "caste": [
+    "SC"
+   ],
+   "note": "For Class 11 onwards.",
+   "docs": [
+    "aadhaar",
+    "caste",
+    "income",
+    "bank",
+    "marks"
+   ],
+   "categories": [
+    "student"
+   ],
+   "states": [
+    "Karnataka"
+   ],
+   "status": [
+    "studying"
+   ],
+   "apply": "ssp.postmatric.karnataka.gov.in"
+  },
+  {
+   "id": "ssp_st",
+   "name": "Post-Matric Scholarship for ST Students (Karnataka)",
+   "benefit": "Fees and maintenance allowance (amount depends on your course)",
+   "max_income": 999,
+   "caste": [
+    "ST"
+   ],
+   "note": "For Class 11 onwards. Check the portal for any income rule.",
+   "docs": [
+    "aadhaar",
+    "caste",
+    "income",
+    "bank",
+    "marks"
+   ],
+   "categories": [
+    "student"
+   ],
+   "states": [
+    "Karnataka"
+   ],
+   "status": [
+    "studying"
+   ],
+   "apply": "ssp.postmatric.karnataka.gov.in"
+  },
+  {
+   "id": "ssp_obc",
+   "name": "Post-Matric Scholarship for OBC Students (Karnataka)",
+   "benefit": "Fees and maintenance allowance (amount depends on your course)",
+   "max_income": 2.5,
+   "caste": [
+    "OBC"
+   ],
+   "note": "Income limit can differ by category. Confirm on the portal.",
+   "docs": [
+    "aadhaar",
+    "caste",
+    "income",
+    "bank",
+    "marks"
+   ],
+   "categories": [
+    "student"
+   ],
+   "states": [
+    "Karnataka"
+   ],
+   "status": [
+    "studying"
+   ],
+   "apply": "ssp.postmatric.karnataka.gov.in"
+  },
+  {
+   "id": "ssp_min",
+   "name": "Post-Matric Scholarship for Minority Students (Karnataka)",
+   "benefit": "Fees and maintenance allowance (amount depends on your course)",
+   "max_income": 2,
+   "caste": [
+    "Minority"
+   ],
+   "note": "For Class 11 onwards.",
+   "docs": [
+    "aadhaar",
+    "income",
+    "bank",
+    "marks"
+   ],
+   "categories": [
+    "student"
+   ],
+   "states": [
+    "Karnataka"
+   ],
+   "status": [
+    "studying"
+   ],
+   "apply": "ssp.postmatric.karnataka.gov.in"
+  }
+ ]
+}
